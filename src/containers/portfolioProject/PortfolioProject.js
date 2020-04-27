@@ -1,5 +1,5 @@
 import React from "react";
-import "./Achievement.css";
+import "./PortfolioProjectCard.css";
 import PortfolioProjectCard from "../../components/portfolioProjectCard/PortfolioProjectCard";
 import { portfolioProjectSection } from "../../portfolio";
 import { Fade } from "react-reveal";
@@ -22,13 +22,13 @@ export default function PortfolioProject() {
             </p>
           </div>
           <div className="achievement-cards-div">
-            {portfolioProjectSection.achivementsCards.map((card) => {
+            {portfolioProjectSection.portfolioProjectsCards.map((card) => {
               return (
                 <PortfolioProjectCard
                   cardInfo={{
                     title: card.title,
                     description: card.subtitle,
-                    image: card.image,
+                    images: card.images,
                     footer: card.footerLink,
                   }}
                 />

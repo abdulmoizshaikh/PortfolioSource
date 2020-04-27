@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function PortfolioCard({ cardInfo }) {
+  console.log("cardInfo", cardInfo);
   function openUrlInNewTab(url) {
     var win = window.open(url, "_blank");
     win.focus();
@@ -9,7 +10,14 @@ export default function PortfolioCard({ cardInfo }) {
   return (
     <div className="certificate-card">
       <div className="certificate-image-div">
-        <img src={cardInfo.image} alt="PWA" className="card-image"></img>
+        {cardInfo.images.map((image) => {
+          console.log("image", image);
+          return (
+            <span className="card-image-wrapper">
+              <img src={image} alt="Projectimage" className="card-image"></img>
+            </span>
+          );
+        })}
       </div>
       <div className="certificate-detail-div">
         <h5 className="card-title">{cardInfo.title}</h5>

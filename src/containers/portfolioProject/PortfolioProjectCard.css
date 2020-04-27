@@ -9,9 +9,13 @@
   margin: 0px;
   margin-bottom: 50px;
 }
+.card-image-wrapper {
+  margin-right: 15px;
+}
+
 .card-image {
   height: 250px;
-  width: 250px;
+  width: 350px;
 }
 
 .card-title {
@@ -37,6 +41,7 @@
 
 .certificate-detail-div {
   text-align: center;
+  margin-top: 30px;
 }
 
 .certificate-card:hover {
@@ -44,6 +49,8 @@
 }
 .certificate-image-div {
   text-align: center;
+  /* display: flex; */
+  /* justify-content: space-between; */
 }
 .achievement-cards-div {
   display: grid;

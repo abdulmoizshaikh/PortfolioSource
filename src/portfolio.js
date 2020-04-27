@@ -149,16 +149,19 @@ const portfolioProjectSection = {
   subtitle: "",
   // "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
 
-  achivementsCards: [
+  portfolioProjectsCards: [
     {
-      title: "Full Stack Development",
+      title: "Recipe Shopping List",
       subtitle: "",
       // "First Pakistani to be selected as Google Google-in Finalist from 4000 students from 77 diffrent countries",
-      image:
-        "https://i.ibb.co/Dp4sT6v/76935584-2470918346508075-2975944283476983808-o-1.jpg",
+      images: [
+        "https://i.ibb.co/MRMPSZM/resipe1.png",
+        "https://i.ibb.co/C98z3PM/2.png",
+        "https://i.ibb.co/x7GJqFW/3.png",
+      ],
       footerLink: [
         {
-          name: "Certification",
+          name: "Details",
           url:
             "https://i.ibb.co/Dp4sT6v/76935584-2470918346508075-2975944283476983808-o-1.jpg",
         },
