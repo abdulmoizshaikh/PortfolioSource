@@ -143,6 +143,68 @@ const bigProjects = {
   ],
 };
 
+// Portfolio projects section
+const portfolioProjectSection = {
+  title: emoji("Portfolio Projects "),
+  subtitle: "",
+  // "Achievements, Certifications Award Letters and Some Cool Stuff that i have done !",
+
+  achivementsCards: [
+    {
+      title: "Full Stack Development",
+      subtitle: "",
+      // "First Pakistani to be selected as Google Google-in Finalist from 4000 students from 77 diffrent countries",
+      image:
+        "https://i.ibb.co/Dp4sT6v/76935584-2470918346508075-2975944283476983808-o-1.jpg",
+      footerLink: [
+        {
+          name: "Certification",
+          url:
+            "https://i.ibb.co/Dp4sT6v/76935584-2470918346508075-2975944283476983808-o-1.jpg",
+        },
+        // {
+        //   name: "Award Letter",
+        //   url:
+        //     "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing",
+        // },
+        // {
+        //   name: "Google Code-in Blog",
+        //   url:
+        //     "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html",
+        // },
+      ],
+    },
+    // {
+    //   title: "Google Assistant Action",
+    //   subtitle:
+    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+    //   image:
+    //     "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
+    //   footerLink: [
+    //     {
+    //       name: "View Google Assistant Action",
+    //       url:
+    //         "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en",
+    //     },
+    //   ],
+    // },
+
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image:
+    //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
+    //   footerLink: [
+    //     { name: "Certification", url: "" },
+    //     {
+    //       name: "Final Project",
+    //       url: "https://pakistan-olx-1.firebaseapp.com/",
+    //     },
+    //   ],
+    // },
+  ],
+};
+
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
@@ -281,6 +343,7 @@ export {
   techStack,
   openSource,
   bigProjects,
+  portfolioProjectSection,
   achievementSection,
   blogSection,
   talkSection,

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Achievement.css";
-import AchivementCard from "../../components/achievementCard/AchivementCard";
-import { achievementSection } from "../../portfolio";
+import PortfolioProjectCard from "../../components/portfolioProjectCard/PortfolioProjectCard";
+import { portfolioProjectSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 
-export default function Achievement() {
+export default function PortfolioProject() {
   // function openUrlInNewTab(url) {
   //   var win = window.open(url, "_blank");
   //   win.focus();
@@ -15,16 +15,16 @@ export default function Achievement() {
         <div className="achievement-main-div">
           <div className="achievement-header">
             <h1 className="heading achievement-heading">
-              {achievementSection.title}
+              {portfolioProjectSection.title}
             </h1>
             <p className="subTitle achievement-subtitle">
-              {achievementSection.subtitle}
+              {portfolioProjectSection.subtitle}
             </p>
           </div>
           <div className="achievement-cards-div">
-            {achievementSection.achivementsCards.map((card) => {
+            {portfolioProjectSection.achivementsCards.map((card) => {
               return (
-                <AchivementCard
+                <PortfolioProjectCard
                   cardInfo={{
                     title: card.title,
                     description: card.subtitle,
